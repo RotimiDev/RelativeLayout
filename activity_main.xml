@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/box_1"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:background="@color/purple_200"/>
+
+    <View
+        android:id="@+id/box_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@id/box_1"
+        android:background="@color/ash"/>
+    <View
+        android:id="@+id/box_3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@id/box_2"
+        android:background="@color/green"/>
+
+    <View
+        android:id="@+id/box_4"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@id/box_3"
+        android:background="@color/purple_200"/>
+
+    <View
+        android:id="@+id/box_5"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@id/box_4"
+        android:background="@color/purple_200"/>
+
+</RelativeLayout>
